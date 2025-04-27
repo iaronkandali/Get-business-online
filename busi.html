@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SolidBuild Constructions</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #f4f6f8;
+    }
+    nav {
+      background-color: #2c3e50;
+    }
+    .navbar-brand, .nav-link {
+      color: white !important;
+    }
+    .hero {
+      background: url('back.jpg') no-repeat center center/cover;
+      height: 80vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 3rem;
+      animation: fadeInDown 2s;
+    }
+    .hero p {
+      font-size: 1.5rem;
+      animation: fadeInUp 2s;
+    }
+    .services-card {
+      transition: 0.3s;
+    }
+    .services-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    }
+    footer {
+      background-color: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg">
+  <div class="container">
+    <a class="navbar-brand" href="#">SolidBuild Constructions</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+      <span class="navbar-toggler-icon bg-light"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navmenu">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero">
+  <div>
+    <h1 class="animate__animated animate__fadeInDown">Building Your Dreams</h1>
+    <p class="animate__animated animate__fadeInUp">Strong. Reliable. Trusted.</p>
+    <a href="#contact" class="btn btn-warning mt-3">Get a Quote</a>
+  </div>
+</section>
+
+<!-- Services Section -->
+<section id="services" class="container my-5">
+  <h2 class="text-center mb-4">Our Services</h2>
+  <div class="row g-4">
+    <div class="col-md-4">
+      <div class="card services-card p-3 text-center animate__animated animate__fadeInUp">
+        <img src="build.jpg" class="card-img-top" alt="Building Construction">
+        <h5 class="mt-3">Building Construction</h5>
+        <p>From foundation to finish, we create solid structures.</p>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card services-card p-3 text-center animate__animated animate__fadeInUp animate__delay-1s">
+        <img src="reno.jpg" class="card-img-top" alt="Renovations">
+        <h5 class="mt-3">Renovations</h5>
+        <p>Modernize and upgrade your spaces with expert renovation.</p>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card services-card p-3 text-center animate__animated animate__fadeInUp animate__delay-2s">
+        <img src="pro.jpg" class="card-img-top" alt="Project Management">
+        <h5 class="mt-3">Project Management</h5>
+        <p>We plan, execute, and manage every detail of your project.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="container my-5 text-center">
+  <h2>Contact Us</h2>
+  <p>📍Rosh-Pinah, Namibia</p>
+  <p>📞 +264 81 200 5678</p>
+  <p>📧 solidbuild@construction.com</p>
+  <a href="https://wa.me/264812005678" class="btn btn-success mt-3" target="_blank">WhatsApp Us</a>
+</section>
+
+<!-- Footer -->
+<footer>
+  <p>&copy; 2025 done By THE-MASTER! call 0813090323 | Namibia</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
